@@ -7,11 +7,11 @@ historical traffic data, a computed risk score, and AI-generated recommendations
 
 ## Architecture
 Kaggle Traffic Dataset (CSV)
-      -> cudf.pandas (GPU-accelerated data cleaning, NVIDIA RAPIDS)
-      -> Google BigQuery (data warehouse)
-      -> Express/Node.js API (risk scoring logic)
-      -> Gemini AI (natural language travel recommendation)
-      -> React Dashboard (area dropdown, risk table, AI advice)
+      -> cudf.pandas (GPU-accelerated data cleaning, NVIDIA RAPIDS)  \
+      -> Google BigQuery (data warehouse) \
+      -> Express/Node.js API (risk scoring logic) \
+      -> Gemini AI (natural language travel recommendation) \
+      -> React Dashboard (area dropdown, risk table, AI advice) \
 
 ## Acceleration Evidence (NVIDIA RAPIDS cudf.pandas)
 - Plain pandas processing time: 0.02293 seconds
